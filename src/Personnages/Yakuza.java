@@ -16,6 +16,7 @@ public class Yakuza extends Humain {
 		this.gagnerArgent(victimeArgent);
 		
 		victime.seFaireExtorquer();
+		this.reputation++;
 		
 		this.parler("J'ai pique les " + victimeArgent + " sous de " + victime.getNom() +
 				", ce qui me fait " + this.getArgent() + " sous dans ma poche. Hi! Hi!");
