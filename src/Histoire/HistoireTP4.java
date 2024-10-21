@@ -28,10 +28,15 @@ public class HistoireTP4 {
 //		yaku.extorquer(marco);
 		
 		// Histoire Ronin
-		Commercant marco = new Commercant("Marco", 15);
-		Ronin roro = new Ronin("Ronin", "shochu", 60);
-		roro.direBonjour();
-		roro.donner(marco);
+//		Commercant marco = new Commercant("Marco", 15);
+//		Ronin roro = new Ronin("Ronin", "shochu", 60);
+//		roro.direBonjour();
+//		roro.donner(marco);
+		
+		// Histoire Duel
+		Ronin roro = new Ronin("Ronin", "shochu", 54);
+		Yakuza yaku = new Yakuza("Yaku le Noir", "Whisky", 45, "Warsong");
+		roro.provoquer(yaku);
 		
 	}
 }
