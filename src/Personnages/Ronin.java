@@ -24,7 +24,7 @@ public class Ronin extends Humain {
 			this.parler("Je t'ai retrouve vermine, tu vas payer pour ce que tu as fait a ce pauvre marchand!");
 			this.gagnerArgent(adversaire.getArgent());
 			honneur++;
-			this.parler("Je t'ai eu petit Yakusa.");
+			this.parler("Je t'ai eu petit Yakuza.");
 			adversaire.perdre();
 		} else {
 			honneur--;
