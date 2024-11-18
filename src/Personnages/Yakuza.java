@@ -40,4 +40,10 @@ public class Yakuza extends Humain {
 		this.parler("J'ai perdu mon duel et mes " + argentPerdu + " sous, sniff... J'ai deshonore le clan de "
 				+ clan + ".");
 	}
+	
+	@Override
+	public void direBonjour() {
+		super.direBonjour();
+		this.parler("Mon clan est celui de " + clan);
+	}
 }
